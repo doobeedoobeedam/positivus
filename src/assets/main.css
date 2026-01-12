@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Warna sesuai desain yang diupload */
+  --color-brand-green: #B9FF66;
+  --color-brand-dark: #191A23;
+  --color-brand-gray: #F3F3F3;
+
+  /* Font bisa ditambahkan di sini jika perlu */
+  --font-sans: "Space Grotesk", sans-serif;
+}
