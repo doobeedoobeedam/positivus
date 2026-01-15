@@ -12,7 +12,10 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss()
   ],
-  base: './',
+  base: '/positivus/',
+  build: {
+    outDir: 'docs'
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
