@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16">
+  <section class="py-16" data-aos="fade-up">
     <div class="flex flex-col md:flex-row items-center gap-6 mb-12 text-center md:text-left">
       <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0">
         <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">Case Studies</h2>
@@ -18,7 +18,7 @@
             traffic and a 25% increase in sales.
           </p>
           <a href="#" class="flex items-center gap-3 text-brand-green group">
-            <span class="text-xl font-medium hover:underline">Learn more</span>
+            <span class="text-base md:text-lg font-medium hover:underline">Learn more</span>
             <span class="text-2xl transition group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
           </a>
         </div>
@@ -29,7 +29,7 @@
             keywords and a 200% increase in organic traffic.
           </p>
           <a href="#" class="flex items-center gap-3 text-brand-green group">
-            <span class="text-xl font-medium hover:underline">Learn more</span>
+            <span class="text-base md:text-lg font-medium hover:underline">Learn more</span>
             <span class="text-2xl transition group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
           </a>
         </div>
@@ -40,7 +40,7 @@
             and generated a 20% increase in online sales.
           </p>
           <a href="#" class="flex items-center gap-3 text-brand-green group">
-            <span class="text-xl font-medium hover:underline">Learn more</span>
+            <span class="text-base md:text-lg font-medium hover:underline">Learn more</span>
             <span class="text-2xl transition group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
           </a>
         </div>

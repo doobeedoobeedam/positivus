@@ -1,5 +1,5 @@
 <template>
-  <section class="py-10 overflow-hidden">
+  <section class="py-10 overflow-hidden" data-aos="fade-up">
     <div
       class="flex flex-wrap justify-center lg:justify-between items-center gap-8 md:gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
 

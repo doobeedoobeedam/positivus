@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-20">
+  <footer class="mt-20" data-aos="fade-up">
     <div class="bg-brand-dark text-white rounded-t-[3rem] px-8 md:px-16 pt-16">
 
       <div class="flex flex-col lg:flex-row justify-between items-center gap-10 mb-16">
@@ -60,23 +60,30 @@
             <input type="email" placeholder="Email"
               class="flex-1 bg-transparent border border-white px-4 py-4 rounded-xl focus:outline-none focus:ring-1 focus:ring-brand-green transition" />
             <button type="submit"
-              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-lg hover:bg-white transition">
+              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-lg hover:bg-white transition duration-300 cursor-pointer">
               Subscribe to news
             </button>
           </form>
         </div>
       </div>
 
-      <div class="border-t border-zinc-700 pt-8 pb-8 flex flex-col md:flex-row gap-6 items-center">
+      <div class="border-t border-zinc-700 pt-8 pb-8 flex flex-col md:flex-row gap-6 items-center text-zinc-400">
         <p>© 2023 Positivus. All Rights Reserved.</p>
-        <a href="#" class="underline transition">Privacy Policy</a>
+        <a href="#" class="hover:text-white underline transition underline-offset-4">Privacy Policy</a>
+        <div class="flex flex-col items-center md:flex-row gap-2 md:gap-6 md:ml-auto text-sm italic">
+          <p>
+            Design by
+            <a href="https://www.figma.com/@olgaaverchenko" target="_blank"
+              class="text-brand-green hover:underline not-italic font-medium">
+              Olga
+            </a>
+          </p>
+          <p>
+            Developed by
+            <span class="text-white not-italic font-medium">Kusuma Wecitra</span>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
 </template>
-
-<style scoped>
-a {
-  text-decoration-thickness: 1px;
-}
-</style>

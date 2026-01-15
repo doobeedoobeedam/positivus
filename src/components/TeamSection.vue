@@ -40,7 +40,7 @@ const teamMembers = [
 </script>
 
 <template>
-  <section class="py-16 px-4 md:px-0 font-sans">
+  <section class="py-16 px-4 md:px-0 font-sans" data-aos="fade-up">
       <div
       class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
       <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
@@ -52,18 +52,18 @@ const teamMembers = [
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       <div v-for="member in teamMembers" :key="member.name"
-        class="border-2 border-b-8 border-brand-dark rounded-[3rem] p-8 bg-white relative">
+        class="border-2 border-b-8 border-brand-dark rounded-[3rem] p-8 bg-white relative" data-aos="zoom-in">
 
         <div class="flex items-end gap-5 mb-6 pb-6 border-b border-brand-dark">
           <div class="relative">
-            <div class="absolute inset-0 bg-brand-green translate-x-1 translate-y-1 rounded-full -z-10"></div>
-            <img :src="member.image" :alt="member.name"
-              class="w-24 h-24 rounded-full border-2 border-brand-dark object-cover grayscale" />
+            <div class="absolute inset-0 bg-brand-green translate-x-1.5 translate-y-1.5 -z-10 rounded-full
+              mask-[url(/images/mask.png)] mask-no-repeat mask-center mask-contain"></div>
+            <img :src="member.image" :alt="member.name" class="w-24 h-24 border-2 border-brand-dark object-cover grayscale rounded-full" />
           </div>
 
           <div class="flex-1">
             <h3 class="text-xl font-bold">{{ member.name }}</h3>
-            <p class="text-lg text-zinc-600">{{ member.role }}</p>
+            <p class="text-base md:text-lg text-zinc-600">{{ member.role }}</p>
           </div>
 
           <a href="#"
@@ -79,7 +79,7 @@ const teamMembers = [
     </div>
 
     <div class="flex justify-end">
-      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90">
+      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition duration-300 cursor-pointer">
         See all team
       </button>
     </div>

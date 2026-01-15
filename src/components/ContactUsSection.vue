@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 font-sans">
+  <section class="py-16 font-sans" data-aos="fade-up">
     <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
       <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
         Contact Us</h2>
@@ -43,14 +43,14 @@
               class="w-full p-3 border-2 border-brand-dark rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-brand-green transition"></textarea>
           </div>
 
-          <button type="submit" class="w-full bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition">
+          <button type="submit" class="w-full bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition duration-300 cursor-pointer">
             Send Message
           </button>
         </form>
       </div>
       <div
-        class="hidden lg:block absolute right-[-20%] top-1/2 -translate-y-1/2 w-[540px] h-[540px] pointer-events-none">
-        <img src="/images/contact-us.svg" alt="">
+        class="hidden lg:block absolute right-[-20%] top-1/2 -translate-y-1/2 w-135 h-135 pointer-events-none">
+        <img src="/images/contact-us.svg" data-aos="zoom-in">
       </div>
     </div>
   </section>
