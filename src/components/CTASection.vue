@@ -14,7 +14,7 @@
       </div>
 
       <div class="hidden md:block md:w-1/2">
-          <img src="/images/cta-section.svg" alt="" class="absolute top-0 lg:-top-16 -right-20 lg:right-16 h-[calc(100%+32px)] lg:h-[calc(100%+128px)] w-auto object-contain pointer-events-none" data-aos="zoom-out">
+          <img src="/images/cta-section.svg" alt="" class="absolute top-0 lg:-top-16 -right-20 md:-right-16 lg:right-16 h-[calc(100%+32px)] lg:h-[calc(100%+128px)] w-auto object-contain pointer-events-none" data-aos="zoom-out">
       </div>
     </div>
   </section>

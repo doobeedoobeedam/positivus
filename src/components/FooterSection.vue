@@ -1,6 +1,6 @@
 <template>
-  <footer class="mt-20 px-0 md:px-16 lg:px-24" data-aos="fade-up">
-    <div class="bg-brand-dark text-white rounded-0 md:rounded-t-[3rem] px-8 md:px-16 pt-16">
+  <footer class="mt-20 px-0 lg:px-24" data-aos="fade-up">
+    <div class="bg-brand-dark text-white rounded-0 lg:rounded-t-[3rem] px-8 md:px-16 pt-16">
 
       <div class="flex flex-col lg:flex-row justify-between items-center gap-10 mb-16">
         <div class="flex items-center gap-2 text-3xl font-bold tracking-tight">

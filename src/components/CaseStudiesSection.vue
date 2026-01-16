@@ -12,9 +12,9 @@
     </div>
 
     <div class="bg-brand-dark text-white rounded-[3rem] p-10 md:p-14">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
-        <div class="space-y-5 md:pr-7 md:border-r border-zinc-700 last:border-0">
+        <div class="space-y-5 lg:pr-7 lg:border-r border-zinc-700 last:border-0">
           <p class="text-base md:text-lg leading-snug">
             For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website
             traffic and a 25% increase in sales.
@@ -30,7 +30,7 @@
           </a>
         </div>
 
-        <div class="space-y-5 md:pr-7 md:pl-1 md:border-r border-zinc-700 last:border-0">
+        <div class="space-y-5 lg:pr-7 lg:pl-1 lg:border-r border-zinc-700 last:border-0">
           <p class="text-base md:text-lg leading-snug">
             For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key
             keywords and a 200% increase in organic traffic.
@@ -46,7 +46,7 @@
           </a>
         </div>
 
-        <div class="space-y-5 md:pl-3">
+        <div class="space-y-5 lg:pl-3">
           <p class="text-base md:text-lg leading-snug">
             For a national retail chain, we created a social media marketing campaign that increased followers by 25%
             and generated a 20% increase in online sales.
