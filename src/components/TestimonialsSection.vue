@@ -52,11 +52,11 @@ const onSlideChange = (swiper) => {
     <div class="bg-brand-dark text-white rounded-[3rem] py-16 relative">
       <swiper
         :modules="modules"
-        :slides-per-view="1.1" 
+        :slides-per-view="1.1"
         :centered-slides="true"
         :space-between="20"
         :loop="true"
-        :looped-slides="3" 
+        :looped-slides="3"
         @swiper="onSwiper"
         @slideChange="onSlideChange"
         :breakpoints="{
@@ -68,13 +68,13 @@ const onSlideChange = (swiper) => {
         <swiper-slide v-for="(item, index) in testimonials" :key="index">
           <div class="flex flex-col h-full transition-all duration-500">
             <div class="relative border border-brand-green rounded-[2.5rem] p-8 md:p-12 mb-10 bg-brand-dark min-h-62 flex items-center">
-              <p class="text-lg leading-relaxed">
+              <p class="text-base md:text-lg leading-relaxed">
                 {{ item.text }}
               </p>
               <div class="absolute -bottom-4 left-12 md:left-20 w-8 h-8 bg-brand-dark border-r border-b border-brand-green rotate-45"></div>
             </div>
             <div class="ml-12 md:ml-20">
-              <h4 class="text-brand-green text-xl">{{ item.name }}</h4>
+              <h4 class="text-brand-green text-lg md:text-xl">{{ item.name }}</h4>
               <p class="text-white text-sm">{{ item.role }}</p>
             </div>
           </div>
@@ -87,8 +87,8 @@ const onSlideChange = (swiper) => {
         </button>
 
         <div class="flex gap-4">
-          <button 
-            v-for="(_, index) in originalTestimonials" 
+          <button
+            v-for="(_, index) in originalTestimonials"
             :key="index"
             @click="swiperInstance?.slideToLoop(index)"
             class="text-2xl cursor-pointer transition-all duration-300"

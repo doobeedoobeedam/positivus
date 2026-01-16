@@ -16,12 +16,12 @@
             <label class="flex items-center gap-3 cursor-pointer group">
               <input type="radio" name="contact-type" value="hi" checked
                 class="w-6 h-6 border-2 border-brand-dark accent-brand-green">
-              <span class="text-lg">Say Hi</span>
+              <span class="text-base md:text-lg">Say Hi</span>
             </label>
             <label class="flex items-center gap-3 cursor-pointer group">
               <input type="radio" name="contact-type" value="quote"
                 class="w-6 h-6 border-2 border-brand-dark accent-brand-green">
-              <span class="text-lg">Get a Quote</span>
+              <span class="text-base md:text-lg">Get a Quote</span>
             </label>
           </div>
 
@@ -43,7 +43,7 @@
               class="w-full p-3 border-2 border-brand-dark rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-brand-green transition"></textarea>
           </div>
 
-          <button type="submit" class="w-full bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition duration-300 cursor-pointer">
+          <button type="submit" class="w-full bg-brand-dark text-white px-8 py-4 rounded-xl text-lg md:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
             Send Message
           </button>
         </form>

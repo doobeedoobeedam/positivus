@@ -1,6 +1,6 @@
 <template>
-  <footer class="mt-20" data-aos="fade-up">
-    <div class="bg-brand-dark text-white rounded-t-[3rem] px-8 md:px-16 pt-16">
+  <footer class="mt-20 px-0 md:px-16 lg:px-24" data-aos="fade-up">
+    <div class="bg-brand-dark text-white rounded-0 md:rounded-t-[3rem] px-8 md:px-16 pt-16">
 
       <div class="flex flex-col lg:flex-row justify-between items-center gap-10 mb-16">
         <div class="flex items-center gap-2 text-3xl font-bold tracking-tight">
@@ -10,7 +10,7 @@
           Positivus
         </div>
 
-        <nav class="flex flex-wrap justify-center gap-6 md:gap-10 text-lg">
+        <nav class="flex flex-wrap justify-center gap-6 md:gap-10 text-base md:text-lg">
           <a href="#" class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">About
             us</a>
           <a href="#"
@@ -45,7 +45,7 @@
           <div class="inline-block bg-brand-green text-brand-dark px-2 py-0.5 rounded-md font-medium text-lg">
             Contact us:
           </div>
-          <div class="space-y-4 text-lg">
+          <div class="space-y-4 text-base md:text-lg">
             <p>Email: info@positivus.com</p>
             <p>Phone: 555-567-8901</p>
             <p class="max-w-sm mx-auto lg:mx-0">
@@ -60,7 +60,7 @@
             <input type="email" placeholder="Email"
               class="flex-1 bg-transparent border border-white px-4 py-4 rounded-xl focus:outline-none focus:ring-1 focus:ring-brand-green transition" />
             <button type="submit"
-              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-lg hover:bg-white transition duration-300 cursor-pointer">
+              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-base md:text-lg hover:bg-white transition duration-300 cursor-pointer">
               Subscribe to news
             </button>
           </form>
@@ -68,7 +68,7 @@
       </div>
 
       <div class="border-t border-zinc-700 pt-8 pb-8 flex flex-col md:flex-row gap-6 items-center text-zinc-400">
-        <p>© 2023 Positivus. All Rights Reserved.</p>
+        <p class="text-center md:text-left">© 2023 Positivus. All Rights Reserved.</p>
         <a href="#" class="hover:text-white underline transition underline-offset-4">Privacy Policy</a>
         <div class="flex flex-col items-center md:flex-row gap-2 md:gap-6 md:ml-auto text-sm italic">
           <p>

@@ -8,7 +8,7 @@
           Our digital marketing agency helps businesses grow and succeed online through a range of services including
           SEO, PPC, and social media marketing.
         </p>
-        <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition duration-300 cursor-pointer">
+        <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg md:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
           Book a consultation
         </button>
       </div>

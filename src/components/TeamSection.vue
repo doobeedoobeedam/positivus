@@ -40,9 +40,9 @@ const teamMembers = [
 </script>
 
 <template>
-  <section class="py-16 px-4 md:px-0 font-sans" data-aos="fade-up">
+  <section id="teams" class="py-16 font-sans" data-aos="fade-up">
       <div
-      class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
+      class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left mb-12">
       <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
         Team</h2>
       <p class="max-w-md text-base md:text-lg leading-snug">
@@ -58,12 +58,12 @@ const teamMembers = [
           <div class="relative">
             <div class="absolute inset-0 bg-brand-green translate-x-1.5 translate-y-1.5 -z-10 rounded-full
               mask-[url(/images/mask.png)] mask-no-repeat mask-center mask-contain"></div>
-            <img :src="member.image" :alt="member.name" class="w-24 h-24 border-2 border-brand-dark object-cover grayscale rounded-full" />
+            <img :src="member.image" :alt="member.name" class="w-20 h-20 md:w-24 md:h-24 border-2 border-brand-dark object-cover grayscale rounded-full" />
           </div>
 
           <div class="flex-1">
             <h3 class="text-xl font-bold">{{ member.name }}</h3>
-            <p class="text-base md:text-lg text-zinc-600">{{ member.role }}</p>
+            <p class="text-sm md:text-base text-zinc-600">{{ member.role }}</p>
           </div>
 
           <a href="#"
@@ -72,14 +72,14 @@ const teamMembers = [
           </a>
         </div>
 
-        <p class="text-lg leading-snug">
+        <p class="text-base md:text-lg leading-snug">
           {{ member.experience }}
         </p>
       </div>
     </div>
 
     <div class="flex justify-end">
-      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-xl hover:opacity-90 transition duration-300 cursor-pointer">
+      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg md:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
         See all team
       </button>
     </div>

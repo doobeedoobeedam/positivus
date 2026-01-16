@@ -6,10 +6,10 @@ const navbarRef = ref(null)
 
 const navLinks = [
   { name: 'About us', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Use Cases', href: '#' },
-  { name: 'Pricing', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: 'Services', href: '#services' },
+  { name: 'Use Cases', href: '#case-studies' },
+  { name: 'Process', href: '#process' },
+  { name: 'Teams', href: '#teams' },
 ]
 
 const handleClickOutside = (event) => {
@@ -28,7 +28,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <nav class="relative z-50 px-4 md:px-0">
+  <nav class="relative z-50">
     <div class="flex justify-between items-center py-8" data-aos="fade-up">
       <div class="flex items-center gap-2 text-3xl font-bold tracking-tight">
         <div class="w-8 h-8 bg-brand-dark rounded-lg flex items-center justify-center -rotate-12">

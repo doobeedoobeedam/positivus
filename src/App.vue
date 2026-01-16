@@ -10,8 +10,8 @@
     <TeamSection />
     <TestimonialsSection />
     <ContactUsSection />
-    <FooterSection />
   </div>
+    <FooterSection />
 </template>
 
 <script setup>
