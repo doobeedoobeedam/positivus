@@ -28,7 +28,7 @@
             <span class="text-base md:text-lg text-brand-dark">Learn more</span>
           </div>
         </div>
-        <img src="/images/search-engine-optimization.svg" class="w-32 h-32 md:w-40 h-40 object-contain" />
+        <img src="/images/search-engine-optimization.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
 
       <div class="border-2 border-b-8 border-brand-dark p-8 md:p-10 rounded-[3rem] bg-brand-green flex justify-between" data-aos="zoom-in">
@@ -46,7 +46,7 @@
             <span class="text-base md:text-lg">Learn more</span>
           </div>
         </div>
-        <img src="/images/pay-per-click-advertising.svg" class="w-32 h-32 md:w-40 h-40 object-contain" />
+        <img src="/images/pay-per-click-advertising.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
 
       <div class="border-2 border-b-8 border-brand-dark p-8 md:p-10 rounded-[3rem] bg-brand-dark flex justify-between" data-aos="zoom-in">
@@ -64,7 +64,7 @@
             <span class="text-base md:text-lg text-white">Learn more</span>
           </div>
         </div>
-        <img src="/images/social-media-marketing.svg" class="w-32 h-32 md:w-40 h-40 object-contain" />
+        <img src="/images/social-media-marketing.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
 
       <div class="border-2 border-b-8 border-brand-dark p-8 md:p-10 rounded-[3rem] bg-brand-gray flex justify-between" data-aos="zoom-in">
@@ -82,7 +82,7 @@
             <span class="text-base md:text-lg">Learn more</span>
           </div>
         </div>
-        <img src="/images/email-marketing.svg" class="w-32 h-32 md:w-40 h-40 object-contain" />
+        <img src="/images/email-marketing.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
 
       <div class="border-2 border-b-8 border-brand-dark p-8 md:p-10 rounded-[3rem] bg-brand-green flex justify-between" data-aos="zoom-in">
@@ -100,7 +100,7 @@
             <span class="text-base md:text-lg">Learn more</span>
           </div>
         </div>
-        <img src="/images/content-creation.svg" class="w-32 h-32 md:w-40 h-40 object-contain" />
+        <img src="/images/content-creation.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
 
       <div class="border-2 border-b-8 border-brand-dark p-8 md:p-10 rounded-[3rem] bg-brand-dark flex justify-between" data-aos="zoom-in">
@@ -118,7 +118,7 @@
             <span class="text-base md:text-lg text-white">Learn more</span>
           </div>
         </div>
-        <img src="/images/analytics-and-tracking.svg" class="w-42 h-40 object-contain" />
+        <img src="/images/analytics-and-tracking.svg" class="w-32 md:h-32 md:w-40 h-40 object-contain" />
       </div>
     </div>
   </section>
