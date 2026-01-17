@@ -56,10 +56,9 @@ const teamMembers = [
 
         <div class="flex items-end gap-5 mb-6 pb-6 border-b border-brand-dark">
           <div class="relative w-20 h-20 md:w-24 md:h-24">
-            <div class="absolute inset-0 bg-brand-dark translate-x-1 translate-y-1 -z-10" style="-webkit-mask-image: url('/images/mask-shape.svg');
-           mask-image: url('/images/mask-shape.svg'); mask-size: contain; mask-repeat: no-repeat; mask-position: center;"></div>
+            <div class="absolute inset-0 bg-brand-dark translate-x-1 translate-y-1 -z-10 team-mask"></div>
 
-            <div class="relative w-full h-full bg-brand-green overflow-hidden" style="-webkit-mask-image: url('/images/mask-shape.svg'); mask-image: url('/images/mask-shape.svg'); mask-size: contain; mask-repeat: no-repeat; mask-position: center;">
+            <div class="relative w-full h-full bg-brand-green overflow-hidden team-mask">
               <img :src="member.image" :alt="member.name" class="w-full h-full object-cover grayscale contrast-125 mix-blend-multiply transition-all duration-300 group-hover:grayscale-0 group-hover:mix-blend-normal group-hover:contrast-100" />
             </div>
           </div>
