@@ -8,7 +8,7 @@
     </div>
     <div class="space-y-6">
       <div v-for="(step, index) in steps" :key="index"
-        class="border-2 border-b-8 border-brand-dark rounded-[2.5rem] p-8 transition"
+        class="border-2 border-b-8 border-brand-dark rounded-[2.5rem] p-8 md:p-10 transition"
         :class="step.isOpen ? 'bg-brand-green' : 'bg-brand-gray'">
         <div class="flex justify-between items-center cursor-pointer" @click="step.isOpen = !step.isOpen">
           <div class="flex items-center gap-6">

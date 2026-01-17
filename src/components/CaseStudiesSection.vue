@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="bg-brand-dark text-white rounded-[3rem] p-10 md:p-14">
+    <div class="bg-brand-dark text-white rounded-[3rem] p-8 md:p-10 lg:p-14">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
         <div class="space-y-5 lg:pr-7 lg:border-r border-zinc-700 last:border-0">

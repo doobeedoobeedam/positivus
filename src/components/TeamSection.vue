@@ -10,7 +10,7 @@ const teamMembers = [
     name: 'Jane Doe',
     role: 'Director of Operations',
     experience: '7+ years of experience in project management and team leadership. Strong organizational and communication skills',
-    image: 'https://randomuser.me/api/portraits/women/2.jpg'
+    image: 'https://randomuser.me/api/portraits/women/9.jpg'
   },
   {
     name: 'Michael Brown',
@@ -22,25 +22,25 @@ const teamMembers = [
     name: 'Emily Johnson',
     role: 'PPC Manager',
     experience: '3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+    image: 'https://randomuser.me/api/portraits/women/5.jpg'
   },
   {
     name: 'Brian Williams',
     role: 'Social Media Specialist',
     experience: '4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
+    image: 'https://randomuser.me/api/portraits/men/6.jpg'
   },
   {
     name: 'Sarah Kim',
     role: 'Content Creator',
     experience: '2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+    image: 'https://randomuser.me/api/portraits/women/8.jpg'
   }
 ]
 </script>
 
 <template>
-  <section  class="py-16 font-sans" data-aos="fade-up">
+  <section class="py-16 font-sans" data-aos="fade-up">
     <div id="teams"
       class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left mb-12">
       <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
@@ -55,10 +55,13 @@ const teamMembers = [
         class="border-2 border-b-8 border-brand-dark rounded-[3rem] p-8 bg-white relative" data-aos="zoom-in">
 
         <div class="flex items-end gap-5 mb-6 pb-6 border-b border-brand-dark">
-          <div class="relative">
-            <div class="absolute inset-0 bg-brand-green translate-x-1.5 translate-y-1.5 -z-10 rounded-full
-              mask-[url(/images/mask.png)] mask-no-repeat mask-center mask-contain"></div>
-            <img :src="member.image" :alt="member.name" class="w-20 h-20 md:w-24 md:h-24 border-2 border-brand-dark object-cover grayscale rounded-full" />
+          <div class="relative w-20 h-20 md:w-24 md:h-24">
+            <div class="absolute inset-0 bg-brand-dark translate-x-1 translate-y-1 -z-10" style="-webkit-mask-image: url('/images/mask-shape.svg');
+           mask-image: url('/images/mask-shape.svg'); mask-size: contain; mask-repeat: no-repeat; mask-position: center;"></div>
+
+            <div class="relative w-full h-full bg-brand-green overflow-hidden" style="-webkit-mask-image: url('/images/mask-shape.svg'); mask-image: url('/images/mask-shape.svg'); mask-size: contain; mask-repeat: no-repeat; mask-position: center;">
+              <img :src="member.image" :alt="member.name" class="w-full h-full object-cover grayscale contrast-125 mix-blend-multiply transition-all duration-300 group-hover:grayscale-0 group-hover:mix-blend-normal group-hover:contrast-100" />
+            </div>
           </div>
 
           <div class="flex-1">
@@ -79,7 +82,8 @@ const teamMembers = [
     </div>
 
     <div class="flex justify-end">
-      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg lg:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
+      <button
+        class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg lg:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
         See all team
       </button>
     </div>
