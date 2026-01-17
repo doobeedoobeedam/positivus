@@ -1,10 +1,10 @@
 <template>
-  <section id="services" class="py-16" data-aos="fade-up">
-    <div
+  <section class="py-16" data-aos="fade-up">
+    <div id="services" 
       class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left mb-12">
-      <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
+      <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
         Services</h2>
-      <p class="max-w-xl text-base md:text-lg leading-snug">
+      <p class="max-w-xl text-base lg:text-lg leading-snug">
         At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These
         services include:
       </p>

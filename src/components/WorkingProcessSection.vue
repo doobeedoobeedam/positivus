@@ -1,8 +1,8 @@
 <template>
-  <section id="process" class="py-16" data-aos="fade-up">
-    <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
-      <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">Our Working Process</h2>
-        <p class="max-w-xs text-base md:text-lg leading-snug ">
+  <section class="py-16" data-aos="fade-up">
+    <div id="process" class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
+      <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">Our Working Process</h2>
+        <p class="max-w-xs text-base lg:text-lg leading-snug">
           Step-by-Step Guide to Achieving Your Business Goals
         </p>
     </div>

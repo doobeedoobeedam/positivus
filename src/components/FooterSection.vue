@@ -13,14 +13,14 @@
         <nav class="flex flex-wrap justify-center gap-6 md:gap-10 text-base md:text-lg">
           <a href="#" class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">About
             us</a>
-          <a href="#"
+          <a href="#services"
             class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Services</a>
-          <a href="#" class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Use
+          <a href="#case-studies" class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Use
             Cases</a>
-          <a href="#"
-            class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Pricing</a>
-          <a href="#"
-            class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Blog</a>
+          <a href="#process"
+            class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Process</a>
+          <a href="#teams"
+            class="hover:text-brand-green underline decoration-zinc-600 underline-offset-4 transition">Teams</a>
         </nav>
 
         <div class="flex gap-4">
@@ -60,17 +60,17 @@
             <input type="email" placeholder="Email"
               class="flex-1 bg-transparent border border-white px-4 py-4 rounded-xl focus:outline-none focus:ring-1 focus:ring-brand-green transition" />
             <button type="submit"
-              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-base md:text-lg hover:bg-white transition duration-300 cursor-pointer">
+              class="bg-brand-green text-brand-dark px-8 py-4 rounded-xl text-base lg:text-lg hover:bg-white transition duration-300 cursor-pointer">
               Subscribe to news
             </button>
           </form>
         </div>
       </div>
 
-      <div class="border-t border-zinc-700 pt-8 pb-8 flex flex-col md:flex-row gap-6 items-center text-zinc-400">
-        <p class="text-center md:text-left">© 2023 Positivus. All Rights Reserved.</p>
+      <div class="border-t border-zinc-700 pt-8 pb-8 flex flex-col md:flex-row gap-6 items-center md:justify-between text-zinc-400">
+        <p class="text-center lg:text-left">© 2023 Positivus. All Rights Reserved.</p>
         <a href="#" class="hover:text-white underline transition underline-offset-4">Privacy Policy</a>
-        <div class="flex flex-col items-center md:flex-row gap-2 md:gap-6 md:ml-auto text-sm italic">
+        <div class="flex flex-col items-center md:items-end lg:items-center lg:flex-row gap-2 lg:gap-6 lg:ml-auto text-sm italic">
           <p>
             Design by
             <a href="https://www.figma.com/@olgaaverchenko" target="_blank"

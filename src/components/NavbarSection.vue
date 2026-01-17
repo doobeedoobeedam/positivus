@@ -70,7 +70,7 @@ onUnmounted(() => {
             {{ link.name }}
           </a>
           <button
-            class="w-full text-lg border-2 border-brand-dark px-6 py-3 rounded-xl hover:bg-brand-dark hover:text-white transition duration-300 cursor-pointer">
+            class="w-full text-lg border border-brand-dark px-6 py-3 rounded-xl hover:bg-brand-dark hover:text-white transition duration-300 cursor-pointer">
             Request a quote
           </button>
         </div>

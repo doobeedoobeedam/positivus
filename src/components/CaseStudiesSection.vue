@@ -1,11 +1,11 @@
 <template>
-  <section id="case-studies" class="py-16" data-aos="fade-up">
-    <div class="flex flex-col md:flex-row items-center gap-6 mb-12 text-center md:text-left">
+  <section class="py-16" data-aos="fade-up">
+    <div id="case-studies" class="flex flex-col md:flex-row items-center gap-6 mb-12 text-center md:text-left">
       <div
         class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0">
-        <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">Case
+        <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">Case
           Studies</h2>
-        <p class="max-w-xl text-base md:text-lg leading-snug ">
+        <p class="max-w-xl text-base lg:text-lg leading-snug">
           Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
         </p>
       </div>

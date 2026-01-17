@@ -42,9 +42,9 @@ const onSlideChange = (swiper) => {
 <template>
   <section class="py-16 font-sans overflow-hidden" data-aos="fade-up">
     <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left px-4 md:px-0 mb-12">
-      <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
+      <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
         Testimonials</h2>
-      <p class="max-w-lg text-base md:text-lg leading-snug">
+      <p class="max-w-lg text-base lg:text-lg leading-snug">
         Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
       </p>
     </div>

@@ -40,12 +40,12 @@ const teamMembers = [
 </script>
 
 <template>
-  <section id="teams" class="py-16 font-sans" data-aos="fade-up">
-      <div
+  <section  class="py-16 font-sans" data-aos="fade-up">
+    <div id="teams"
       class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 text-center md:text-left mb-12">
-      <h2 class="bg-brand-green px-2 py-1 text-3xl md:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
+      <h2 class="bg-brand-green px-2 py-1 text-3xl lg:text-[40px] font-medium rounded-lg w-fit whitespace-nowrap">
         Team</h2>
-      <p class="max-w-md text-base md:text-lg leading-snug">
+      <p class="max-w-md text-base lg:text-lg leading-snug">
         Meet the skilled and experienced team behind our successful digital marketing strategies
       </p>
     </div>
@@ -63,7 +63,7 @@ const teamMembers = [
 
           <div class="flex-1">
             <h3 class="text-xl font-bold">{{ member.name }}</h3>
-            <p class="text-sm md:text-base text-zinc-600">{{ member.role }}</p>
+            <p class="text-sm lg:text-base text-zinc-600">{{ member.role }}</p>
           </div>
 
           <a href="#"
@@ -72,14 +72,14 @@ const teamMembers = [
           </a>
         </div>
 
-        <p class="text-base md:text-lg leading-snug">
+        <p class="text-base lg:text-lg leading-snug">
           {{ member.experience }}
         </p>
       </div>
     </div>
 
     <div class="flex justify-end">
-      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg md:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
+      <button class="bg-brand-dark text-white px-8 py-4 rounded-xl text-lg lg:text-xl hover:opacity-90 transition duration-300 cursor-pointer">
         See all team
       </button>
     </div>
